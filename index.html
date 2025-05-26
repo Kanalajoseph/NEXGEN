@@ -3,23 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NEXGEN Events</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-   
-    <header>
-        <h2>NEXGEN</h2>
-    </header>
+    <!-- Navigation -->
     <nav>
+        <div class="logo">NEXGEN Events</div>
         <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="services.html">Services</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-        <h1>Welcome to NEXGEN</h1>
-        <p>This is a sample page.</p>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Bringing People Together Through Amazing Events</h1>
+        <p>Join us for unforgettable experiences</p>
+        <a href="#events" class="btn">Discover Upcoming Events</a>
+    </header>
+
+    <!-- Upcoming Events -->
+    <section id="events" class="events">
+        <h2>Upcoming Events</h2>
+        <div class="event-grid">
+            <div class="event-card">
+                <h3>street party</h3>
+                
+                <img src="streetparty.jpg" class="stp">
+                <p>April, 11 2025</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="event-card">
+                <h3>deep house sound party</h3>
+                <img src="WhatsApp Image 2025-05-16 at 12.34.00_a96b92fc.jpg" class="stp">
+                <p>may 12 2025</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="event-card">
+                <h3>Business Networking Night</h3>
+                <p>August 5, 2025 - Chicago</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At NEXGEN Events, we bring together innovators, creatives, and leaders through inspiring experiences. Our events are crafted to connect, engage, and empower our community.</p>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section id="newsletter" class="newsletter">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to our newsletter for the latest event news and updates.</p>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@nexgenevents.com</p>
+        <p>Phone: +260 761643204</p>
+        <div class="socials">
+            <a href="#"><img src="logos/insta.png" class="soci"></a>
+            <a href="#"><img src="logos/blackfb.png" class="soci"></a>
+            <a href="#"><img src="logos/gap.png" class="soci"></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 NEXGEN Events. All rights reserved.</p>
+    </footer>
 </body>
 </html>
