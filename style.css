@@ -155,15 +155,20 @@ footer {
     color: white;
     background-color: rgba(32, 32, 122, 0.608);
     text-align: center;
+
+}h4{
     animation: myne;
     animation-duration: 15s;
     animation-iteration-count: infinite;
-}@keyframes myne{
+}
+    @keyframes myne{
     0%{
         color: white;
+        
     }
     20%{
        color: red;
+       
     }40%{
        color: white;
     }60%{
@@ -173,5 +178,25 @@ footer {
     }
     100%{
       color: red;
+    }
+
+}
+@keyframes myne{
+    0%{
+        transform: scale(1);
+        
+    }
+    20%{
+       transform: scale(1.1);
+       
+    }40%{
+       transform: scale(1.6);
+    }60%{
+        transform: scale(1.1);
+    }80%{
+        transform: scale(1.8);
+    }   
+    100%{
+      transform: scale(1.1);
     }
 }
