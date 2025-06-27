@@ -63,6 +63,7 @@ nav .logo {
     padding: 0.8em 1.5em;
     text-decoration: none;
     border-radius: 5px;
+
 }
 
 /* Sections */
@@ -149,4 +150,28 @@ footer {
     width: 40px;
     height: 40px;
 }   
-
+.solo{
+    padding: 40px;
+    color: white;
+    background-color: rgba(32, 32, 122, 0.608);
+    text-align: center;
+    animation: myne;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}@keyframes myne{
+    0%{
+        color: white;
+    }
+    20%{
+       color: red;
+    }40%{
+       color: white;
+    }60%{
+        color:red;
+    }80%{
+        color: white;
+    }
+    100%{
+      color: red;
+    }
+}
